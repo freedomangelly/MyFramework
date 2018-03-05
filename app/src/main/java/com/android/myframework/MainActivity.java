@@ -1,9 +1,8 @@
 package com.android.myframework;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 
-import rx.Observable;
 import rx.Observer;
 import rx.Subscriber;
 
@@ -19,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
         Observer observer=new Observer() {
             @Override
             public void onCompleted() {
-
+                11
             }
 
             @Override
