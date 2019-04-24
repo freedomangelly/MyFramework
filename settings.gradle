@@ -1,1 +1,1 @@
-include ':app', ':sharecomponent'
+include ':app', ':sharecomponent', ':butterknife', ':butterknife-annotations', ':butterknife-compiler', ':joke-annotations', ':joke-compiler', ':joke-pay'

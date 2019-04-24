@@ -4,7 +4,8 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 
-import com.darren.architect_day29.R;
+
+import com.android.myframework.R;
 
 import io.reactivex.Observable;
 import io.reactivex.Observer;
@@ -16,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_main_1);
         // 1.观察者 Observable 被观察对象
         // Observer 观察者
         // subscribe 注册订阅

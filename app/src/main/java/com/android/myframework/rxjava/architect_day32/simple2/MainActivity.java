@@ -5,10 +5,10 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Toast;
 
-import com.darren.architect_day32.R;
-import com.darren.architect_day32.simple2.rxlogin.RxLogin;
-import com.darren.architect_day32.simple2.rxlogin.RxLoginPlatform;
-import com.darren.architect_day32.simple2.rxlogin.RxLoginResult;
+import com.android.myframework.R;
+import com.android.myframework.rxjava.architect_day32.simple2.rxlogin.RxLogin;
+import com.android.myframework.rxjava.architect_day32.simple2.rxlogin.RxLoginPlatform;
+import com.android.myframework.rxjava.architect_day32.simple2.rxlogin.RxLoginResult;
 import com.darren.sharecomponent.ShareApplication;
 import com.jakewharton.rxbinding2.view.RxView;
 
@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_main_1);
 
         ShareApplication.attach(this);
 

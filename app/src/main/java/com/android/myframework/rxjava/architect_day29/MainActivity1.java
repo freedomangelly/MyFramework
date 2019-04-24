@@ -28,7 +28,7 @@ public class MainActivity1 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_main_1);
 
         // 给网络上的一张图片加水印，显示到 ImageView 控件上
         // 1.开启线程下载图片
