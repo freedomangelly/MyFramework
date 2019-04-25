@@ -33,7 +33,6 @@ dependencies {
     implementation 'com.jakewharton.rxbinding2:rxbinding:2.0.0'
     implementation 'com.tbruyelle.rxpermissions2:rxpermissions:0.9.4@aar'
     implementation project(':sharecomponent')
-    implementation 'com.squareup.okhttp3:okhttp:3.8.1'
     implementation 'com.google.code.gson:gson:2.8.1'
     implementation 'org.xutils:xutils:3.5.0'
     implementation project(':butterknife')
@@ -43,4 +42,8 @@ dependencies {
     implementation project(':joke-compiler')
     implementation project(':joke-pay')
     implementation 'com.android.support:recyclerview-v7:26.1.0'
+    implementation 'com.squareup.retrofit2:retrofit:2.5.0'
+    implementation 'com.squareup.okhttp3:okhttp:3.9.1'
+    implementation 'com.squareup.okhttp3:logging-interceptor:+'
+    implementation 'com.squareup.retrofit2:converter-gson:+'
 }

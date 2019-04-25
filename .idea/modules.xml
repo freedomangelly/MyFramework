@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/MyFramework.iml" filepath="$PROJECT_DIR$/MyFramework.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/MyFramework.iml" filepath="$PROJECT_DIR$/.idea/MyFramework.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MyFramework.iml" filepath="$PROJECT_DIR$/MyFramework.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/butterknife/butterknife.iml" filepath="$PROJECT_DIR$/butterknife/butterknife.iml" />
       <module fileurl="file://$PROJECT_DIR$/butterknife-annotations/butterknife-annotations.iml" filepath="$PROJECT_DIR$/butterknife-annotations/butterknife-annotations.iml" />
@@ -12,7 +11,6 @@
       <module fileurl="file://$PROJECT_DIR$/joke-annotations/joke-annotations.iml" filepath="$PROJECT_DIR$/joke-annotations/joke-annotations.iml" />
       <module fileurl="file://$PROJECT_DIR$/joke-compiler/joke-compiler.iml" filepath="$PROJECT_DIR$/joke-compiler/joke-compiler.iml" />
       <module fileurl="file://$PROJECT_DIR$/joke-pay/joke-pay.iml" filepath="$PROJECT_DIR$/joke-pay/joke-pay.iml" />
-      <module fileurl="file://$PROJECT_DIR$/sharecomponent/sharecomponent.iml" filepath="$PROJECT_DIR$/sharecomponent/sharecomponent.iml" />
       <module fileurl="file://$PROJECT_DIR$/sharecomponent/sharecomponent.iml" filepath="$PROJECT_DIR$/sharecomponent/sharecomponent.iml" />
     </modules>
   </component>
