@@ -1,6 +1,7 @@
 package com.android.myframework.retrofit.architect_day33.simple1;
 
-import com.darren.architect_day33.simple2.Result;
+
+import com.android.myframework.retrofit.architect_day33.simple2.Result;
 
 import retrofit2.Call;
 import retrofit2.http.GET;

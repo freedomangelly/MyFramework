@@ -1,7 +1,7 @@
-package com.android.myframework.retrofit.architect_day33.simple1;
+package com.android.myframework.retrofit.architect_day35.simple1;
 
 
-import com.android.myframework.retrofit.architect_day33.simple2.BaseResult;
+import com.darren.architect_day35.simple2.BaseResult;
 
 /**
  * Created by hcDarren on 2017/12/16.
