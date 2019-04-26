@@ -2,8 +2,8 @@ package com.android.myframework.retrofit.architect_day36.simple6;
 
 import android.content.Context;
 
-import com.darren.architect_day01.simple5.IHttpRequest;
-import com.darren.architect_day01.simple7.EngineCallback;
+import com.android.myframework.retrofit.architect_day36.simple5.IHttpRequest;
+import com.android.myframework.retrofit.architect_day36.simple7.EngineCallback;
 
 import java.io.IOException;
 import java.util.Map;

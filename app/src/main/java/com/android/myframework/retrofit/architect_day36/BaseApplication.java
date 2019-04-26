@@ -2,10 +2,12 @@ package com.android.myframework.retrofit.architect_day36;
 
 import android.app.Application;
 
-import com.darren.architect_day01.simple5.PreferencesUtil;
-import com.darren.architect_day01.simple7.HttpUtils;
-import com.darren.architect_day01.simple6.RetrofitRequest;
-import com.darren.architect_day01.simple7.EngineConfig;
+
+import com.android.myframework.BuildConfig;
+import com.android.myframework.retrofit.architect_day36.simple5.PreferencesUtil;
+import com.android.myframework.retrofit.architect_day36.simple6.RetrofitRequest;
+import com.android.myframework.retrofit.architect_day36.simple7.EngineConfig;
+import com.android.myframework.retrofit.architect_day36.simple7.HttpUtils;
 
 import org.xutils.x;
 

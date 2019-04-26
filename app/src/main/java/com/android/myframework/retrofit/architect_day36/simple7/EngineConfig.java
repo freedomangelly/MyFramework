@@ -1,6 +1,7 @@
 package com.android.myframework.retrofit.architect_day36.simple7;
 
-import com.darren.architect_day01.simple5.IHttpRequest;
+
+import com.android.myframework.retrofit.architect_day36.simple5.IHttpRequest;
 
 /**
  * Created by hcDarren on 2017/12/24.
