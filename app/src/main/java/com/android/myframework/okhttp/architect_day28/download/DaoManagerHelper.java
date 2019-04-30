@@ -2,9 +2,9 @@ package com.android.myframework.okhttp.architect_day28.download;
 
 import android.content.Context;
 
-import com.darren.architect_day28.download.db.DaoSupportFactory;
-import com.darren.architect_day28.download.db.DownloadEntity;
-import com.darren.architect_day28.download.db.IDaoSupport;
+import com.android.myframework.okhttp.architect_day28.download.db.DaoSupportFactory;
+import com.android.myframework.okhttp.architect_day28.download.db.DownloadEntity;
+import com.android.myframework.okhttp.architect_day28.download.db.IDaoSupport;
 
 import java.util.List;
 

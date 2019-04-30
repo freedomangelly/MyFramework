@@ -1,6 +1,6 @@
 package com.android.myframework.observermode.architect_day_15.simple3.observer;
 
-import com.darren.architect_day_15.simple3.observable.WXAdvanceObservable;
+import com.android.myframework.observermode.architect_day_15.simple3.observable.WXAdvanceObservable;
 
 import java.util.Observable;
 import java.util.Observer;

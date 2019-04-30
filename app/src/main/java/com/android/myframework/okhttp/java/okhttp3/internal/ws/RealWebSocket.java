@@ -15,6 +15,8 @@
  */
 package com.android.myframework.okhttp.java.okhttp3.internal.ws;
 
+import com.android.myframework.okhttp.java.okhttp3.internal.connection.StreamAllocation;
+
 import java.io.Closeable;
 import java.io.IOException;
 import java.net.ProtocolException;
@@ -40,10 +42,7 @@ import okhttp3.WebSocket;
 import okhttp3.WebSocketListener;
 import okhttp3.internal.Internal;
 import okhttp3.internal.Util;
-import okhttp3.internal.connection.StreamAllocation;
 import okhttp3.internal.ws.WebSocketProtocol;
-import okhttp3.internal.ws.WebSocketReader;
-import okhttp3.internal.ws.WebSocketWriter;
 import okio.BufferedSink;
 import okio.BufferedSource;
 import okio.ByteString;

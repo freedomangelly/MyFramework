@@ -16,6 +16,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".MVP.architect_day37.simple4.MainActivity" />
     </application>
 
 </manifest>

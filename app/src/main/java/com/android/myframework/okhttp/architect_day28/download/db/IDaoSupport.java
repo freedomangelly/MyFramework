@@ -2,7 +2,7 @@ package com.android.myframework.okhttp.architect_day28.download.db;
 
 import android.database.sqlite.SQLiteDatabase;
 
-import com.darren.architect_day28.download.db.curd.QuerySupport;
+import com.android.myframework.okhttp.architect_day28.download.db.curd.QuerySupport;
 
 import java.util.List;
 

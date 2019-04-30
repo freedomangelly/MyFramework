@@ -4,9 +4,9 @@ import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 
-import com.darren.architect_day18.R;
-import com.darren.architect_day18.simple3.bottomtab.TabBottomNavigation;
-import com.darren.architect_day18.simple3.bottomtab.iterator.TabListIterator;
+import com.android.myframework.R;
+import com.android.myframework.iteratormode.architect_day18.simple3.bottomtab.TabBottomNavigation;
+import com.android.myframework.iteratormode.architect_day18.simple3.bottomtab.iterator.TabListIterator;
 
 /**
  * Created by hcDarren on 2017/10/22.
@@ -17,7 +17,7 @@ public class TabActivity extends AppCompatActivity{
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.iterator_activity_main);
 
         mTabBottomNavigation = (TabBottomNavigation) findViewById(R.id.tab_bottom);
 

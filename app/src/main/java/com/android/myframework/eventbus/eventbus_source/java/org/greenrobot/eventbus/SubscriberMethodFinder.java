@@ -15,8 +15,8 @@
  */
 package com.android.myframework.eventbus.eventbus_source.java.org.greenrobot.eventbus;
 
-import org.greenrobot.eventbus.meta.SubscriberInfo;
-import org.greenrobot.eventbus.meta.SubscriberInfoIndex;
+import com.android.myframework.eventbus.eventbus_source.java.org.greenrobot.eventbus.meta.SubscriberInfo;
+import com.android.myframework.eventbus.eventbus_source.java.org.greenrobot.eventbus.meta.SubscriberInfoIndex;
 
 import java.lang.reflect.Method;
 import java.lang.reflect.Modifier;

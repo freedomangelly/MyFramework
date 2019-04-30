@@ -2,9 +2,9 @@ package com.android.myframework.okhttp.architect_day26.okhttp.interceptor;
 
 import android.util.Log;
 
-import com.darren.architect_day26.okhttp.Request;
-import com.darren.architect_day26.okhttp.RequestBody;
-import com.darren.architect_day26.okhttp.Response;
+import com.android.myframework.okhttp.architect_day26.okhttp.Request;
+import com.android.myframework.okhttp.architect_day26.okhttp.RequestBody;
+import com.android.myframework.okhttp.architect_day26.okhttp.Response;
 
 import java.io.IOException;
 

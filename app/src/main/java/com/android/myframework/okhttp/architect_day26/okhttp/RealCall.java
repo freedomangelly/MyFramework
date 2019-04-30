@@ -2,11 +2,11 @@ package com.android.myframework.okhttp.architect_day26.okhttp;
 
 import android.util.Log;
 
-import com.darren.architect_day26.okhttp.interceptor.BridgeInterceptor;
-import com.darren.architect_day26.okhttp.interceptor.CacheInterceptor;
-import com.darren.architect_day26.okhttp.interceptor.CallServerInterceptor;
-import com.darren.architect_day26.okhttp.interceptor.Interceptor;
-import com.darren.architect_day26.okhttp.interceptor.RealInterceptorChain;
+import com.android.myframework.okhttp.architect_day26.okhttp.interceptor.BridgeInterceptor;
+import com.android.myframework.okhttp.architect_day26.okhttp.interceptor.CacheInterceptor;
+import com.android.myframework.okhttp.architect_day26.okhttp.interceptor.CallServerInterceptor;
+import com.android.myframework.okhttp.architect_day26.okhttp.interceptor.Interceptor;
+import com.android.myframework.okhttp.architect_day26.okhttp.interceptor.RealInterceptorChain;
 
 import java.io.IOException;
 import java.util.ArrayList;

@@ -1,8 +1,8 @@
 package com.android.myframework.agentmode.architect_day16.simple3;
 
-import com.darren.architect_day16.retrofit2.http.FormUrlEncoded;
-import com.darren.architect_day16.retrofit2.http.POST;
-import com.darren.architect_day16.retrofit2.http.PartMap;
+import com.android.myframework.agentmode.architect_day16.retrofit2.http.FormUrlEncoded;
+import com.android.myframework.agentmode.architect_day16.retrofit2.http.POST;
+import com.android.myframework.agentmode.architect_day16.retrofit2.http.PartMap;
 
 import java.util.Map;
 

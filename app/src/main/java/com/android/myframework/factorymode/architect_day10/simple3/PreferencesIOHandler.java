@@ -1,6 +1,7 @@
 package com.android.myframework.factorymode.architect_day10.simple3;
 
-import com.darren.architect_day10.simple2.PreferencesUtils;
+
+import com.android.myframework.factorymode.architect_day10.simple2.PreferencesUtils;
 
 /**
  * Created by hcDarren on 2017/9/24.

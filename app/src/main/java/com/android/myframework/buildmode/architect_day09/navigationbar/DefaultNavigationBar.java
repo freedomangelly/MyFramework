@@ -5,7 +5,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import com.darren.architect_day09.R;
+import com.android.myframework.R;
+
 
 /**
  * Created by hcDarren on 2017/9/23.

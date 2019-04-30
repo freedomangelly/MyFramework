@@ -15,6 +15,8 @@
  */
 package com.android.myframework.okhttp.java.okhttp3.internal.connection;
 
+import com.android.myframework.okhttp.java.okhttp3.internal.http.HttpCodec;
+
 import java.io.IOException;
 import java.lang.ref.Reference;
 import java.lang.ref.WeakReference;
@@ -32,10 +34,7 @@ import okhttp3.Route;
 import okhttp3.internal.Internal;
 import okhttp3.internal.Util;
 import okhttp3.internal.connection.RealConnection;
-import okhttp3.internal.connection.RouteDatabase;
 import okhttp3.internal.connection.RouteException;
-import okhttp3.internal.connection.RouteSelector;
-import okhttp3.internal.http.HttpCodec;
 import okhttp3.internal.http2.ConnectionShutdownException;
 import okhttp3.internal.http2.ErrorCode;
 import okhttp3.internal.http2.StreamResetException;
@@ -81,7 +80,7 @@ import static okhttp3.internal.Util.closeQuietly;
  */
 public final class StreamAllocation {
   public final Address address;
-  private okhttp3.internal.connection.RouteSelector.Selection routeSelection;
+  private RouteSelector.Selection routeSelection;
   private Route route;
   private final ConnectionPool connectionPool;
   public final Call call;
@@ -89,7 +88,7 @@ public final class StreamAllocation {
   private final Object callStackTrace;
 
   // State guarded by connectionPool.
-  private final okhttp3.internal.connection.RouteSelector routeSelector;
+  private final RouteSelector routeSelector;
   private int refusedStreamCount;
   private okhttp3.internal.connection.RealConnection connection;
   private boolean reportedAcquired;
@@ -162,10 +161,10 @@ public final class StreamAllocation {
    * Returns a connection to host a new stream. This prefers the existing connection if it exists,
    * then the pool, finally building a new connection.
    */
-  private okhttp3.internal.connection.RealConnection findConnection(int connectTimeout, int readTimeout, int writeTimeout,
+  private RealConnection findConnection(int connectTimeout, int readTimeout, int writeTimeout,
                                                                     boolean connectionRetryEnabled) throws IOException {
     boolean foundPooledConnection = false;
-    okhttp3.internal.connection.RealConnection result = null;
+    RealConnection result = null;
     Route selectedRoute = null;
     Connection releasedConnection;
     Socket toClose;
@@ -248,7 +247,7 @@ public final class StreamAllocation {
         route = selectedRoute;
         refusedStreamCount = 0;
         // 没有找到可用的
-        result = new okhttp3.internal.connection.RealConnection(connectionPool, selectedRoute);
+        result = new RealConnection(connectionPool, selectedRoute);
         acquire(result, false);
       }
     }

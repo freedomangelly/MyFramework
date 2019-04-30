@@ -17,8 +17,8 @@ package com.android.myframework.agentmode.architect_day16.retrofit2.converter.gs
 
 import android.util.Log;
 
-import com.darren.architect_day16.retrofit2.Converter;
-import com.darren.architect_day16.retrofit2.Retrofit;
+import com.android.myframework.agentmode.architect_day16.retrofit2.Converter;
+import com.android.myframework.agentmode.architect_day16.retrofit2.Retrofit;
 import com.google.gson.Gson;
 import com.google.gson.TypeAdapter;
 import com.google.gson.reflect.TypeToken;

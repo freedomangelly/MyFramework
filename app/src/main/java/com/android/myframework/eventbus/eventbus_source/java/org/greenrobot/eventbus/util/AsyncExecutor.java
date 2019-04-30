@@ -18,7 +18,7 @@ package com.android.myframework.eventbus.eventbus_source.java.org.greenrobot.eve
 import android.app.Activity;
 import android.util.Log;
 
-import org.greenrobot.eventbus.EventBus;
+import com.android.myframework.eventbus.eventbus_source.java.org.greenrobot.eventbus.EventBus;
 
 import java.lang.reflect.Constructor;
 import java.util.concurrent.Executor;

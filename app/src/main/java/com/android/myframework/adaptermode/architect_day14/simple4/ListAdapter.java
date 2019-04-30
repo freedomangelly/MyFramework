@@ -6,7 +6,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import com.darren.architect_day14.R;
+import com.android.myframework.R;
 
 import java.util.List;
 

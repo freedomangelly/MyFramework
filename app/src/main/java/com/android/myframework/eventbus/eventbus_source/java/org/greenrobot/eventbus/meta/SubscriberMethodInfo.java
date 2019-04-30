@@ -15,7 +15,7 @@
  */
 package com.android.myframework.eventbus.eventbus_source.java.org.greenrobot.eventbus.meta;
 
-import org.greenrobot.eventbus.ThreadMode;
+import com.android.myframework.eventbus.eventbus_source.java.org.greenrobot.eventbus.ThreadMode;
 
 public class SubscriberMethodInfo {
     final String methodName;

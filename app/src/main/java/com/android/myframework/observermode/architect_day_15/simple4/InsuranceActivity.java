@@ -6,7 +6,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.EditText;
 
-import com.darren.architect_day_15.R;
+import com.android.myframework.R;
+
 
 /**
  * Created by hcDarren on 2017/10/14.

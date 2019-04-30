@@ -18,7 +18,7 @@ package com.android.myframework.eventbus.eventbus_source.java.org.greenrobot.eve
 
 import android.util.Log;
 
-import org.greenrobot.eventbus.EventBus;
+import com.android.myframework.eventbus.eventbus_source.java.org.greenrobot.eventbus.EventBus;
 
 import java.util.HashMap;
 import java.util.Map;

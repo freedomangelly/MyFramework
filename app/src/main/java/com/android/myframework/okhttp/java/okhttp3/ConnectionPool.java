@@ -18,6 +18,8 @@ package com.android.myframework.okhttp.java.okhttp3;
 
 import android.support.annotation.Nullable;
 
+import com.android.myframework.okhttp.java.okhttp3.internal.connection.StreamAllocation;
+
 import java.lang.ref.Reference;
 import java.net.Socket;
 import java.util.ArrayDeque;
@@ -36,7 +38,6 @@ import okhttp3.Route;
 import okhttp3.internal.Util;
 import okhttp3.internal.connection.RealConnection;
 import okhttp3.internal.connection.RouteDatabase;
-import okhttp3.internal.connection.StreamAllocation;
 import okhttp3.internal.platform.Platform;
 
 import static okhttp3.internal.Util.closeQuietly;

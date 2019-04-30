@@ -3,9 +3,9 @@ package com.android.myframework.agentmode.okhttpdemo.retrofit;
 
 import android.util.Log;
 
-import com.darren.okhttpdemo.okhttp3.OkHttpClient;
-import com.darren.okhttpdemo.okhttp3.Request;
-import com.darren.okhttpdemo.okhttp3.RequestBody;
+import com.android.myframework.agentmode.okhttpdemo.okhttp3.Request;
+import com.android.myframework.agentmode.okhttpdemo.okhttp3.OkHttpClient;
+import com.android.myframework.agentmode.okhttpdemo.okhttp3.RequestBody;
 import com.google.gson.Gson;
 
 import java.io.IOException;
@@ -57,15 +57,15 @@ public class HttpCall<T> implements Call<T> {
 
         OkHttpClient okHttpClient = new OkHttpClient();
 
-        okHttpClient.newCall(request).enqueue(new com.darren.okhttpdemo.okhttp3.Callback() {
+        okHttpClient.newCall(request).enqueue(new com.android.myframework.agentmode.okhttpdemo.okhttp3.Callback() {
 
             @Override
-            public void onFailure(com.darren.okhttpdemo.okhttp3.Call call, IOException e) {
+            public void onFailure(com.android.myframework.agentmode.okhttpdemo.okhttp3.Call call, IOException e) {
                 callback.onFailure(HttpCall.this, e);
             }
 
             @Override
-            public void onResponse(com.darren.okhttpdemo.okhttp3.Call call, com.darren.okhttpdemo.okhttp3.Response oldResponse) throws IOException {
+            public void onResponse(com.android.myframework.agentmode.okhttpdemo.okhttp3.Call call, com.android.myframework.agentmode.okhttpdemo.okhttp3.Response oldResponse) throws IOException {
                 String resultStr = oldResponse.string();
 
                 Log.e("TAG", "str " + resultStr);

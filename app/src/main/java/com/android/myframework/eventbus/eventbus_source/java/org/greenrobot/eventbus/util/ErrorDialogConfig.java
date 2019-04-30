@@ -19,7 +19,7 @@ package com.android.myframework.eventbus.eventbus_source.java.org.greenrobot.eve
 import android.content.res.Resources;
 import android.util.Log;
 
-import org.greenrobot.eventbus.EventBus;
+import com.android.myframework.eventbus.eventbus_source.java.org.greenrobot.eventbus.EventBus;
 
 public class ErrorDialogConfig {
     final Resources resources;

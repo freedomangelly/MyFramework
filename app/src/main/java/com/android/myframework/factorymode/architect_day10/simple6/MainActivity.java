@@ -5,8 +5,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.TextView;
 
-import com.darren.architect_day10.R;
-import com.darren.architect_day10.simple5.IOHandler;
+import com.android.myframework.R;
+import com.android.myframework.factorymode.architect_day10.simple5.IOHandler;
 
 public class MainActivity extends AppCompatActivity {
     private TextView mTextView;

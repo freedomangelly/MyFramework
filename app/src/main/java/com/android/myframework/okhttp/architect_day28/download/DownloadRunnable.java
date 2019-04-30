@@ -2,8 +2,8 @@ package com.android.myframework.okhttp.architect_day28.download;
 
 import android.util.Log;
 
-import com.darren.architect_day28.OkHttpManager;
-import com.darren.architect_day28.download.db.DownloadEntity;
+import com.android.myframework.okhttp.architect_day28.OkHttpManager;
+import com.android.myframework.okhttp.architect_day28.download.db.DownloadEntity;
 
 import java.io.File;
 import java.io.IOException;

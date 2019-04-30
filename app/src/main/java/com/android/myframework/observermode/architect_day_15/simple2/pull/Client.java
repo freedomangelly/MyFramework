@@ -1,7 +1,7 @@
 package com.android.myframework.observermode.architect_day_15.simple2.pull;
 
-import com.darren.architect_day_15.simple2.pull.observable.PullWXAdvanceObservable;
-import com.darren.architect_day_15.simple2.pull.observer.PullWXUser;
+import com.android.myframework.observermode.architect_day_15.simple2.pull.observable.PullWXAdvanceObservable;
+import com.android.myframework.observermode.architect_day_15.simple2.pull.observer.PullWXUser;
 
 /**
  * Created by hcDarren on 2017/10/14.

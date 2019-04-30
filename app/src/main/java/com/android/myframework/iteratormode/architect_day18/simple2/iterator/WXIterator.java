@@ -1,6 +1,6 @@
 package com.android.myframework.iteratormode.architect_day18.simple2.iterator;
 
-import com.darren.architect_day18.simple2.UserInfo;
+import com.android.myframework.iteratormode.architect_day18.simple2.UserInfo;
 
 /**
  * Created by hcDarren on 2017/10/22.

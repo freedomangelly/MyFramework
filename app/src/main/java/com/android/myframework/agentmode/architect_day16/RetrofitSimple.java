@@ -1,7 +1,7 @@
 package com.android.myframework.agentmode.architect_day16;
 
-import com.darren.architect_day16.retrofit2.Retrofit;
-import com.darren.architect_day16.retrofit2.converter.gson.GsonConverterFactory;
+import com.android.myframework.agentmode.architect_day16.retrofit2.Retrofit;
+import com.android.myframework.agentmode.architect_day16.retrofit2.converter.gson.GsonConverterFactory;
 
 /**
  * description:

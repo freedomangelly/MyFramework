@@ -1,6 +1,6 @@
 package com.android.myframework.okhttp.architect_day28.download;
 
-import com.darren.architect_day28.OkHttpManager;
+import com.android.myframework.okhttp.architect_day28.OkHttpManager;
 
 import java.io.IOException;
 import java.util.ArrayDeque;

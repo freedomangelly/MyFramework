@@ -15,7 +15,8 @@
  */
 package com.android.myframework.agentmode.architect_day16.retrofit2;
 
-import com.darren.architect_day16.retrofit2.http.Streaming;
+
+import com.android.myframework.agentmode.architect_day16.retrofit2.http.Streaming;
 
 import java.io.IOException;
 import java.lang.annotation.Annotation;

@@ -1,6 +1,6 @@
 package com.android.myframework.observermode.architect_day_15.simple1.observable;
 
-import com.darren.architect_day_15.simple1.observer.IWXUser;
+import com.android.myframework.observermode.architect_day_15.simple1.observer.IWXUser;
 
 import java.util.ArrayList;
 import java.util.List;

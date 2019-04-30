@@ -15,7 +15,8 @@
  */
 package com.android.myframework.eventbus.eventbus_source.java.org.greenrobot.eventbus.meta;
 
-import org.greenrobot.eventbus.SubscriberMethod;
+import com.android.myframework.eventbus.eventbus_source.java.org.greenrobot.eventbus.SubscriberMethod;
+
 
 /**
  * Uses {@link SubscriberMethodInfo} objects to create {@link org.greenrobot.eventbus.SubscriberMethod} objects on demand.

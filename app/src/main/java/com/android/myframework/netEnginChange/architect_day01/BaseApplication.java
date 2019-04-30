@@ -2,9 +2,10 @@ package com.android.myframework.netEnginChange.architect_day01;
 
 import android.app.Application;
 
-import com.darren.architect_day01.simple5.HttpUtils;
-import com.darren.architect_day01.simple5.OKHttpRequest;
-import com.darren.architect_day01.simple5.PreferencesUtil;
+import com.android.myframework.BuildConfig;
+import com.android.myframework.netEnginChange.architect_day01.simple5.HttpUtils;
+import com.android.myframework.netEnginChange.architect_day01.simple5.OKHttpRequest;
+import com.android.myframework.netEnginChange.architect_day01.simple5.PreferencesUtil;
 
 import org.xutils.x;
 

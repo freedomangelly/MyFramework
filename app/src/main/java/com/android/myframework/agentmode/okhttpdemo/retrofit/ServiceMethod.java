@@ -1,9 +1,9 @@
 package com.android.myframework.agentmode.okhttpdemo.retrofit;
 
-import com.darren.okhttpdemo.okhttp3.HttpUrl;
-import com.darren.okhttpdemo.retrofit.http.annotation.FieldMap;
-import com.darren.okhttpdemo.retrofit.http.annotation.GET;
-import com.darren.okhttpdemo.retrofit.http.annotation.POST;
+import com.android.myframework.agentmode.okhttpdemo.okhttp3.HttpUrl;
+import com.android.myframework.agentmode.okhttpdemo.retrofit.http.annotation.FieldMap;
+import com.android.myframework.agentmode.okhttpdemo.retrofit.http.annotation.GET;
+import com.android.myframework.agentmode.okhttpdemo.retrofit.http.annotation.POST;
 
 import java.lang.annotation.Annotation;
 import java.lang.reflect.Method;

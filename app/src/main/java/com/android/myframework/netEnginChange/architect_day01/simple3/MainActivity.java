@@ -3,8 +3,8 @@ package com.android.myframework.netEnginChange.architect_day01.simple3;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 
-import com.darren.architect_day01.ConstantValue;
-import com.darren.architect_day01.R;
+import com.android.myframework.R;
+import com.android.myframework.netEnginChange.architect_day01.ConstantValue;
 
 import java.util.HashMap;
 import java.util.Map;

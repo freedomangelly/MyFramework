@@ -5,7 +5,8 @@ import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
-import org.greenrobot.eventbus.EventBus;
+import com.android.myframework.R;
+import com.android.myframework.eventbus.eventbus_source.java.org.greenrobot.eventbus.EventBus;
 
 /**
  * description:

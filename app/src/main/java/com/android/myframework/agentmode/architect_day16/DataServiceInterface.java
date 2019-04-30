@@ -1,9 +1,9 @@
 package com.android.myframework.agentmode.architect_day16;
 
-import com.darren.architect_day16.retrofit2.Call;
-import com.darren.architect_day16.retrofit2.http.GET;
-import com.darren.architect_day16.retrofit2.http.Headers;
-import com.darren.architect_day16.retrofit2.http.Query;
+import com.android.myframework.agentmode.architect_day16.retrofit2.http.GET;
+import com.android.myframework.agentmode.architect_day16.retrofit2.Call;
+import com.android.myframework.agentmode.architect_day16.retrofit2.http.Headers;
+import com.android.myframework.agentmode.architect_day16.retrofit2.http.Query;
 
 /**
  * description:

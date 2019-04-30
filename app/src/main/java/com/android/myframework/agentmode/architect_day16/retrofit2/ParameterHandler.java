@@ -23,7 +23,7 @@ import okhttp3.Headers;
 import okhttp3.MultipartBody;
 import okhttp3.RequestBody;
 
-import static com.darren.architect_day16.retrofit2.Utils.checkNotNull;
+import static com.android.myframework.agentmode.architect_day16.retrofit2.Utils.checkNotNull;
 
 abstract class ParameterHandler<T> {
   abstract void apply(RequestBuilder builder, T value) throws IOException;

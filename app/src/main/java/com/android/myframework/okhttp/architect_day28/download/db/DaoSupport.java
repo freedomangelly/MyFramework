@@ -5,7 +5,7 @@ import android.database.sqlite.SQLiteDatabase;
 import android.support.v4.util.ArrayMap;
 import android.util.Log;
 
-import com.darren.architect_day28.download.db.curd.QuerySupport;
+import com.android.myframework.okhttp.architect_day28.download.db.curd.QuerySupport;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;

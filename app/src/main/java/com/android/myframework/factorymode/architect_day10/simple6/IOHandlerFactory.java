@@ -1,10 +1,10 @@
 package com.android.myframework.factorymode.architect_day10.simple6;
 
-import com.darren.architect_day10.simple5.DiskIOHandler;
-import com.darren.architect_day10.simple5.IOFactory;
-import com.darren.architect_day10.simple5.IOHandler;
-import com.darren.architect_day10.simple5.MemoryIOHandler;
-import com.darren.architect_day10.simple5.PreferencesIOHandler;
+import com.android.myframework.factorymode.architect_day10.simple5.IOFactory;
+import com.android.myframework.factorymode.architect_day10.simple5.DiskIOHandler;
+import com.android.myframework.factorymode.architect_day10.simple5.IOHandler;
+import com.android.myframework.factorymode.architect_day10.simple5.MemoryIOHandler;
+import com.android.myframework.factorymode.architect_day10.simple5.PreferencesIOHandler;
 
 /**
  * 工厂设计模式 - 简单工厂模式

@@ -1,7 +1,7 @@
 package com.android.myframework.iteratormode.architect_day18.simple2;
 
-import com.darren.architect_day18.simple2.iterator.Iterator;
-import com.darren.architect_day18.simple2.iterator.QQIterator;
+import com.android.myframework.iteratormode.architect_day18.simple2.iterator.Iterator;
+import com.android.myframework.iteratormode.architect_day18.simple2.iterator.QQIterator;
 
 import java.util.ArrayList;
 import java.util.List;

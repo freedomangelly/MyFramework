@@ -5,15 +5,15 @@ import android.text.TextUtils;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.darren.architect_day18.R;
-import com.darren.architect_day18.simple3.bottomtab.BottomTabItem;
+import com.android.myframework.R;
+import com.android.myframework.iteratormode.architect_day18.simple3.bottomtab.BottomTabItem;
 
 /**
  * Created by hcDarren on 2017/10/22.
  * 这个要自己写
  */
 
-public class MainBottomTabItem extends BottomTabItem{
+public class MainBottomTabItem extends BottomTabItem {
     private Builder builder;
     private MainBottomTabItem(Context context) {
         super(R.layout.tab_main_bottom_item, context);

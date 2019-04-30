@@ -1,7 +1,7 @@
 package com.android.myframework.okhttp.architect_day26.okhttp.interceptor;
 
-import com.darren.architect_day26.okhttp.Request;
-import com.darren.architect_day26.okhttp.Response;
+import com.android.myframework.okhttp.architect_day26.okhttp.Request;
+import com.android.myframework.okhttp.architect_day26.okhttp.Response;
 
 import java.io.IOException;
 import java.util.List;

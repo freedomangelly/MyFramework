@@ -15,17 +15,17 @@
  */
 package com.android.myframework.agentmode.architect_day16.retrofit2;
 
-import com.darren.architect_day16.retrofit2.http.DELETE;
-import com.darren.architect_day16.retrofit2.http.FormUrlEncoded;
-import com.darren.architect_day16.retrofit2.http.GET;
-import com.darren.architect_day16.retrofit2.http.HEAD;
-import com.darren.architect_day16.retrofit2.http.HTTP;
-import com.darren.architect_day16.retrofit2.http.Multipart;
-import com.darren.architect_day16.retrofit2.http.OPTIONS;
-import com.darren.architect_day16.retrofit2.http.PATCH;
-import com.darren.architect_day16.retrofit2.http.POST;
-import com.darren.architect_day16.retrofit2.http.PUT;
-import com.darren.architect_day16.retrofit2.http.Url;
+import com.android.myframework.agentmode.architect_day16.retrofit2.http.DELETE;
+import com.android.myframework.agentmode.architect_day16.retrofit2.http.FormUrlEncoded;
+import com.android.myframework.agentmode.architect_day16.retrofit2.http.GET;
+import com.android.myframework.agentmode.architect_day16.retrofit2.http.HEAD;
+import com.android.myframework.agentmode.architect_day16.retrofit2.http.HTTP;
+import com.android.myframework.agentmode.architect_day16.retrofit2.http.Multipart;
+import com.android.myframework.agentmode.architect_day16.retrofit2.http.OPTIONS;
+import com.android.myframework.agentmode.architect_day16.retrofit2.http.PATCH;
+import com.android.myframework.agentmode.architect_day16.retrofit2.http.POST;
+import com.android.myframework.agentmode.architect_day16.retrofit2.http.PUT;
+import com.android.myframework.agentmode.architect_day16.retrofit2.http.Url;
 
 import java.io.IOException;
 import java.lang.annotation.Annotation;
@@ -308,8 +308,8 @@ final class ServiceMethod<T> {
                 HTTP http = (HTTP) annotation;
                 parseHttpMethodAndPath(http.method(), http.path(),
                         http.hasBody());
-            } else if (annotation instanceof com.darren.architect_day16.retrofit2.http.Headers) {
-                String[] headersToParse = ((com.darren.architect_day16.retrofit2.http.Headers) annotation)
+            } else if (annotation instanceof com.android.myframework.agentmode.architect_day16.retrofit2.http.Headers) {
+                String[] headersToParse = ((com.android.myframework.agentmode.architect_day16.retrofit2.http.Headers) annotation)
                         .value();
                 if (headersToParse.length == 0) {
                     throw methodError("@Headers annotation is empty.");
@@ -478,7 +478,7 @@ final class ServiceMethod<T> {
                             "@Url must be okhttp3.HttpUrl, String, java.net.URI, or android.net.Uri type.");
                 }
 
-            } else if (annotation instanceof com.darren.architect_day16.retrofit2.http.Path) {
+            } else if (annotation instanceof com.android.myframework.agentmode.architect_day16.retrofit2.http.Path) {
                 if (gotQuery) {
                     throw parameterError(p,
                             "A @Path parameter must not come after a @Query.");
@@ -494,7 +494,7 @@ final class ServiceMethod<T> {
                 }
                 gotPath = true;
 
-                com.darren.architect_day16.retrofit2.http.Path path = (com.darren.architect_day16.retrofit2.http.Path) annotation;
+                com.android.myframework.agentmode.architect_day16.retrofit2.http.Path path = (com.android.myframework.agentmode.architect_day16.retrofit2.http.Path) annotation;
                 // 获取 path 的值
                 String name = path.value();
                 // 检验值
@@ -506,8 +506,8 @@ final class ServiceMethod<T> {
                 return new ParameterHandler.Path<>(name, converter,
                         path.encoded());
 
-            } else if (annotation instanceof com.darren.architect_day16.retrofit2.http.Query) {
-                com.darren.architect_day16.retrofit2.http.Query query = (com.darren.architect_day16.retrofit2.http.Query) annotation;
+            } else if (annotation instanceof com.android.myframework.agentmode.architect_day16.retrofit2.http.Query) {
+                com.android.myframework.agentmode.architect_day16.retrofit2.http.Query query = (com.android.myframework.agentmode.architect_day16.retrofit2.http.Query) annotation;
                 // 获取值
                 String name = query.value();
                 boolean encoded = query.encoded();
@@ -544,7 +544,7 @@ final class ServiceMethod<T> {
                             encoded);
                 }
 
-            } else if (annotation instanceof com.darren.architect_day16.retrofit2.http.QueryMap) {
+            } else if (annotation instanceof com.android.myframework.agentmode.architect_day16.retrofit2.http.QueryMap) {
                 Class<?> rawParameterType = Utils.getRawType(type);
 
                 if (!Map.class.isAssignableFrom(rawParameterType)) {
@@ -570,10 +570,10 @@ final class ServiceMethod<T> {
                         valueType, annotations);
 
                 return new ParameterHandler.QueryMap<>(valueConverter,
-                        ((com.darren.architect_day16.retrofit2.http.QueryMap) annotation).encoded());
+                        ((com.android.myframework.agentmode.architect_day16.retrofit2.http.QueryMap) annotation).encoded());
 
-            } else if (annotation instanceof com.darren.architect_day16.retrofit2.http.Header) {
-                com.darren.architect_day16.retrofit2.http.Header header = (com.darren.architect_day16.retrofit2.http.Header) annotation;
+            } else if (annotation instanceof com.android.myframework.agentmode.architect_day16.retrofit2.http.Header) {
+                com.android.myframework.agentmode.architect_day16.retrofit2.http.Header header = (com.android.myframework.agentmode.architect_day16.retrofit2.http.Header) annotation;
                 String name = header.value();
 
                 Class<?> rawParameterType = Utils.getRawType(type);
@@ -605,7 +605,7 @@ final class ServiceMethod<T> {
                     return new ParameterHandler.Header<>(name, converter);
                 }
 
-            } else if (annotation instanceof com.darren.architect_day16.retrofit2.http.HeaderMap) {
+            } else if (annotation instanceof com.android.myframework.agentmode.architect_day16.retrofit2.http.HeaderMap) {
                 Class<?> rawParameterType = Utils.getRawType(type);
                 if (!Map.class.isAssignableFrom(rawParameterType)) {
                     throw parameterError(p,
@@ -632,12 +632,12 @@ final class ServiceMethod<T> {
 
                 return new ParameterHandler.HeaderMap<>(valueConverter);
 
-            } else if (annotation instanceof com.darren.architect_day16.retrofit2.http.Field) {
+            } else if (annotation instanceof com.android.myframework.agentmode.architect_day16.retrofit2.http.Field) {
                 if (!isFormEncoded) {
                     throw parameterError(p,
                             "@Field parameters can only be used with form encoding.");
                 }
-                com.darren.architect_day16.retrofit2.http.Field field = (com.darren.architect_day16.retrofit2.http.Field) annotation;
+                com.android.myframework.agentmode.architect_day16.retrofit2.http.Field field = (com.android.myframework.agentmode.architect_day16.retrofit2.http.Field) annotation;
                 String name = field.value();
                 boolean encoded = field.encoded();
 
@@ -673,7 +673,7 @@ final class ServiceMethod<T> {
                             encoded);
                 }
 
-            } else if (annotation instanceof com.darren.architect_day16.retrofit2.http.FieldMap) {
+            } else if (annotation instanceof com.android.myframework.agentmode.architect_day16.retrofit2.http.FieldMap) {
                 if (!isFormEncoded) {
                     throw parameterError(p,
                             "@FieldMap parameters can only be used with form encoding.");
@@ -703,14 +703,14 @@ final class ServiceMethod<T> {
 
                 gotField = true;
                 return new ParameterHandler.FieldMap<>(valueConverter,
-                        ((com.darren.architect_day16.retrofit2.http.FieldMap) annotation).encoded());
+                        ((com.android.myframework.agentmode.architect_day16.retrofit2.http.FieldMap) annotation).encoded());
 
-            } else if (annotation instanceof com.darren.architect_day16.retrofit2.http.Part) {
+            } else if (annotation instanceof com.android.myframework.agentmode.architect_day16.retrofit2.http.Part) {
                 if (!isMultipart) {
                     throw parameterError(p,
                             "@Part parameters can only be used with multipart encoding.");
                 }
-                com.darren.architect_day16.retrofit2.http.Part part = (com.darren.architect_day16.retrofit2.http.Part) annotation;
+                com.android.myframework.agentmode.architect_day16.retrofit2.http.Part part = (com.android.myframework.agentmode.architect_day16.retrofit2.http.Part) annotation;
                 gotPart = true;
 
                 String partName = part.value();
@@ -808,7 +808,7 @@ final class ServiceMethod<T> {
                     }
                 }
 
-            } else if (annotation instanceof com.darren.architect_day16.retrofit2.http.PartMap) {
+            } else if (annotation instanceof com.android.myframework.agentmode.architect_day16.retrofit2.http.PartMap) {
                 if (!isMultipart) {
                     throw parameterError(p,
                             "@PartMap parameters can only be used with multipart encoding.");
@@ -848,11 +848,11 @@ final class ServiceMethod<T> {
                         .requestBodyConverter(valueType, annotations,
                                 methodAnnotations);
 
-                com.darren.architect_day16.retrofit2.http.PartMap partMap = (com.darren.architect_day16.retrofit2.http.PartMap) annotation;
+                com.android.myframework.agentmode.architect_day16.retrofit2.http.PartMap partMap = (com.android.myframework.agentmode.architect_day16.retrofit2.http.PartMap) annotation;
                 return new ParameterHandler.PartMap<>(valueConverter,
                         partMap.encoding());
 
-            } else if (annotation instanceof com.darren.architect_day16.retrofit2.http.Body) {
+            } else if (annotation instanceof com.android.myframework.agentmode.architect_day16.retrofit2.http.Body) {
                 if (isFormEncoded || isMultipart) {
                     throw parameterError(p,
                             "@Body parameters cannot be used with form or multi-part encoding.");

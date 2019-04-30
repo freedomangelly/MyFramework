@@ -7,8 +7,10 @@ import android.os.Bundle;
 import android.support.v4.content.FileProvider;
 import android.support.v7.app.AppCompatActivity;
 
-import com.darren.architect_day28.download.DownloadCallback;
-import com.darren.architect_day28.download.DownloadFacade;
+import com.android.myframework.BuildConfig;
+import com.android.myframework.R;
+import com.android.myframework.okhttp.architect_day28.download.DownloadCallback;
+import com.android.myframework.okhttp.architect_day28.download.DownloadFacade;
 
 import java.io.File;
 import java.io.IOException;
